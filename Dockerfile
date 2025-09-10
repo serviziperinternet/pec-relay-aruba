@@ -1,5 +1,6 @@
 # Dockerfile – usa l’immagine ufficiale Playwright con i browser già installati
-FROM mcr.microsoft.com/playwright:v1.47.2-jammy
+FROM mcr.microsoft.com/playwright:v1.55.0-jammy
+
 
 WORKDIR /app
 
