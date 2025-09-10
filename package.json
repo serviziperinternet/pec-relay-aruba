@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node server.js",
     "setup:playwright": "playwright install --with-deps",
-    "pw:smoke": "node pw-smoke.js"
+    "pw:smoke": "node headless/pw-smoke.js"
   },
   "dependencies": {
     "express": "^4.19.2",
