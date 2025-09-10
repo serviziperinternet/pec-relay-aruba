@@ -7,7 +7,8 @@
   "scripts": {
     "start": "node server.js",
     "setup:playwright": "playwright install --with-deps",
-    "pw:smoke": "node headless/pw-smoke.js"
+    "pw:smoke": "node headless/pw-smoke.js",
+    "pw:api": "node headless/pw-call.js"
   },
   "dependencies": {
     "express": "^4.19.2",
@@ -15,3 +16,4 @@
     "@playwright/test": "^1.47.2"
   }
 }
+
