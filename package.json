@@ -10,10 +10,11 @@
     "pw:smoke": "node headless/pw-smoke.js",
     "pw:api": "node headless/pw-call.js"
   },
-  "dependencies": {
-    "express": "^4.19.2",
-    "nodemailer": "^6.9.11",
-    "@playwright/test": "^1.47.2"
-  }
+"dependencies": {
+  "express": "^4.19.2",
+  "nodemailer": "^6.9.11",
+  "@playwright/test": "1.55.0"
+}
+
 }
 
